@@ -4,8 +4,8 @@ from telegram import Update
 from telegram.ext import Application, CommandHandler, ContextTypes
 
 # إعداد متغيرات البيئة
-TOKEN = os.environ.get("BOT_TOKEN")
-BOT_USERNAME = os.environ.get("BOT_USERNAME")  # بدون @
+TOKEN = "7528729236:AAFPM2yFi6us5hiuD7TWsV5ovs613mXPh6o"
+BOT_USERNAME ="Tr_py_bot"
 
 # تهيئة Flask و PTB Application
 app = Flask(__name__)
